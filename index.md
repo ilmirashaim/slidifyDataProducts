@@ -54,7 +54,7 @@ data <- read.csv(text=data)
 </div>
 
 ---
-## Why i should use this app?
+## Why should i use this app?
 
 <p>If your are going to do some data analysis with this dataset you can use the app to visualise and understand the data better.  </p>
-<p>Or if you live in USA you can use the app to choose what state you can move to for avoiding bad consequences of severe weather.</p>
+<p>Or if you live in USA you can use the app to choose which state you can move to for avoiding bad consequences of severe weather.</p>
