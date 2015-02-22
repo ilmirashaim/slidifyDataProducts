@@ -1,0 +1,14 @@
+base
+stringr
+plyr
+lattice
+RColorBrewer
+latticeExtra
+reshape
+shiny
+googleVis
+bitops
+RCurl
+shinyapps
+lubridate
+slidify

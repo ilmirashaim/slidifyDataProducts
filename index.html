@@ -51,8 +51,19 @@
 <li>This is the <a href="https://ilmirashaim.shinyapps.io/project/">link</a> to the application.</li>
 <li>This application is based U.S. National Oceanic and Atmospheric Administration&#39;s (NOAA) <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf">storm database</a>.</li>
 <li>After some preprocessing and aggregating the data the <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2">original dataset</a> was converted to <a href="https://dl.dropboxusercontent.com/u/72511223/aggregatedStormData.csv">new dataset</a>. This last dataset is used by the app.</li>
-<li>The application can visualise 4 characteristics of severe weather events across the U.S. for each year from 1950 to 2011. These characteristics are: fatalities, injuries, property damage and crop damage.</li>
 </ol>
+
+<pre><code class="r">url=&quot;https://dl.dropboxusercontent.com/u/72511223/aggregatedStormData.csv&quot;
+data &lt;- getURL(url, ssl.verifypeer=0L, followlocation=1L)
+data &lt;- read.csv(text=data)
+</code></pre>
+
+<ol>
+<li>The application can visualise 4 characteristics of severe weather events across the U.S. for each year from 1950 to 2011. These characteristics are: </li>
+</ol>
+
+<pre><code>## [1] &quot;fatalities&quot;     &quot;injuries&quot;       &quot;propertyDamage&quot; &quot;cropDamage&quot;
+</code></pre>
 
   </article>
   <!-- Presenter Notes -->
